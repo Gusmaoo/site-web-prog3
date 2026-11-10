@@ -1,0 +1,30 @@
+# Dependências (recriadas com npm install)
+node_modules/
+
+# Banco de dados local (recriado automaticamente no npm start)
+data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Variáveis de ambiente com senhas (o .env.example continua sendo enviado)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Arquivos do sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Configurações de editor
+.vscode/
+.idea/
+
+# Temporários
+*.tmp
+*.bak
